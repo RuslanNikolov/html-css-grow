@@ -4,8 +4,108 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>HTML & CSS</title>
   </head>
-  <body></body>
+  <body>
+    <div class="app">
+      <header class="header">
+        <img class="logo" src="./assets/Ellipse.svg" alt='logo' />
+        <div class="header__title-wrapper">
+          <h1 class="header__title">Github Repo Explorer</h1>
+          <p class="header__sub-title">
+            learning project, created by <span class="hyper-link">John Doe</span>
+          </p>
+        </div>
+    
+        <div class="header__search-input-wrapper">
+          <img class="header__search-icon"src="./assets/SearchIcon.svg" />
+          <input class="header__search-input"
+            placeholder='Search for a github repo'
+          />
+        </div>
+        <button class="header__search-button">Search</button>
+      </header>
+    <main class="main">
+        <button class="back-button">
+          <img class="back-button__left-arrow" src="./assets/LeftArrow.svg" alt='left arrow' />
+          go back
+        </button>
+  
+        <div class="issue-cards-list">
+            <article class="card">
+                <img class="profile-picture" src='./assets/ProfilePic_1.svg'></img>
+              
+                <aside class="info-wrapper">
+                  <h2 class="info-wrapper__title">Throw error while generating type and mutation base on mongoose schema</h2>
+                  <h4 class="info-wrapper__sub-title">#111: opened by John Doe</h4>
+                  <p class="info-wrapper__description">Description text At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                  <div class="tags-wrapper">
+                      <button class="tag actionpack-tag">
+                        actionpack
+                      </button>
+                      <button class="tag react-tag">
+                        react
+                      </button>
+                  </div>
+                </aside>
+            </article>
+            <article class="card">
+                    <img class="profile-picture" src='./assets/ProfilePic_2.svg'></img>
+
+                <aside class="info-wrapper">
+                  <h2 class="info-wrapper__title">[react-hooks/exhaustive-deps] False positive firing</h2>
+                  <h4 class="info-wrapper__sub-title">#311: opened by John Doe</h4>
+                  <p class="info-wrapper__description">Description text At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati. .</p>
+                  <div class="tags-wrapper">
+                        <button class="tag actionpack-tag">
+                          actionpack
+                        </button>
+                    </div>
+                </aside>
+            </article>
+            <article class="card">
+                    <img class="profile-picture" src='./assets/ProfilePic_3.svg'></img>
+
+                <aside class="info-wrapper">
+                  <h2 class="info-wrapper__title">Cannot preventDefault input[type=number] onWheel event in Chrome</h2>
+                  <h4 class="info-wrapper__sub-title">#9423: opened by John Doe</h4>
+                  <p class="info-wrapper__description">Description text At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                  <div class="tags-wrapper">
+                        <button class="tag actionpack-tag">
+                          actionpack
+                        </button>
+                    </div>
+                </aside>
+            </article>
+            <article class="card">
+                    <img class="profile-picture" src='./assets/ProfilePic_4.svg'></img>
+
+                <aside class="info-wrapper">
+                  <h2 class="info-wrapper__title">Cannot preventDefault input[type=number] onWheel event in Chrome</h2>
+                  <h4 class="info-wrapper__sub-title">#9423: opened by John Doe</h4>
+                  <p class="info-wrapper__description">Description text At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                  <div class="tags-wrapper">
+                        <button class="tag actionpack-tag">
+                          actionpack
+                        </button>
+                    </div>
+                </aside>
+            </article>
+        </div>
+  
+        <hr class="horizontal-line" />
+        <div class="pagination-wrapper">
+            <img  src="./assets/LeftArrow.svg" alt='left arrow' />
+            <div class="numbers-box">
+                <span class="number">1</span>
+                <span class="number highlighted">2</span>
+                <span class="number">3</span>
+                <span class="number">4</span>
+            </div>
+            <img  src="./assets/RightArrow.svg" alt='right arrow' />
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
